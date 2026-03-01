@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Záverečná práca</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+      color: #1e293b;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #0f172a;
+      font-size: 2.2em;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #2563eb;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 5px;
+    }
+
+    section {
+      margin-bottom: 30px;
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+    }
+
+    .box {
+      background: #f1f5f9;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 10px;
+      border: 1px solid #e2e8f0;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    strong {
+      color: #0f172a;
+    }
+
+    /* Denník bloky */
+    .week {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 12px;
+      border-left: 5px solid #2563eb;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .week:hover {
+      background: #eff6ff;
+      transform: translateX(4px);
+    }
+
+  </style>
+</head>
+<body>
+
+<h1>Rozpoznávanie akcii a kolaborácia v kognitívnej robotike</h1>
+
+<section>
+  <h2>Informácie o študentovi</h2>
+  <p><strong>Meno:</strong> Martin Čermák</p>
+  <p><strong>Školiteľ:</strong> RNDr. Kristína Malinovská, PhD.</p>
+  <p><strong>Kontakt:</strong> cermak35@uniba.sk</p>
+</section>
+
+<section>
+  <h2>Zadanie práce</h2>
+  <div class="box">
+    <p><strong>Anotácia:</strong><br>
+    Kognitívna robotika sa zaoberá vytváraním inteligentných, často
+    humanoidných robotov, ktoré sa učia skúsenosťou podobne ako deti. Veľmi
+    typickou úlohou pre takéto roboty je manipulácia s objektmi v blízkosti robota,
+    prípadne aj v kooperácii s človekom. Pre učenie sa rôznych zručností sa v tejto
+    doméne zväčša používa strojové učenie (hlavne umelé neurónové siete), ktoré
+    vyžaduje veľké množstvá dát a/alebo ich sústavné získavanie v simulátore.
+    Pre kolaboratívnu úlohu, napríklad stavanie veže z kociek, musí robot vedieť
+    rozpoznať v akom stave sa úloha nachádza a hlavne ak sa strieda v stavaní
+    s človekom aj to, čo sa chystá človek robiť a čo má nasledne urobiť robot, čiže
+    vybrať nejakú akciu pre nejaký objekt.</p>
+
+    <p><strong>Cieľ práce:</strong><br>
+    V rámci prehľadovej práce dobre preštudujte a zhodnoťte literatúru
+    o rozpoznávaní akcií, čiže cielených sekvencii pohybov, ďalej o kolaboratívnej
+    kognitívnej robotike a možnostiach modelovania umelej inteligencie robota,
+    ktorá umožní plniť spomínanú kolaboratívnu metódu. Implementujte vhodné
+    existujúce riešenie pre humanoidného robota NICO, ktorého máme k dispozícii
+    na katedre a v jeho simulátore. Prípadne navrhnite vylepšenia.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Denník</h2>
+
+  <div class="week">
+    <p><strong>Týždeň 1:</strong> Vytvorenie webstranky</p>
+  </div>
+
+  <div class="week">
+    <p><strong>Týždeň 2:</strong> Samostudium forward kinematics, inverse kinematics</p>
+  </div>
+
+</section>
+
+</body>
+</html>
+
